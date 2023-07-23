@@ -37,6 +37,7 @@ And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
   Some infos https://www.3docity.com.au/mercury-zerog-ender-5-mod-build-info-klipper-slicer-profiles/
   https://www.fabreeko.com/collections/mods/products/mercury-one-kit?variant=43506009538815
 17. Enclosure like https://www.thingiverse.com/thing:5111093
+18. 220V bed like this one: https://www.aliexpress.com/item/1005005657153057.html?spm=a2g0o.productlist.main.41.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-20&pdp_npi=3%40dis%21EUR%2175.39%2175.39%21%21%2182.03%21%21%400b0a558a16901350300074452d0733%2112000033912707130%21sea%21BE%214310898249&curPageLogUid=R9eD0Ap9gOdx
 
 **Some further usefull pages**
 https://github.com/Identity-Unkn0wn/Ender-5-Plus-Upgrades#klipper--cfgs
