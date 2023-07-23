@@ -38,4 +38,3 @@ And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
 
 **Some further usefull pages**
 https://github.com/Identity-Unkn0wn/Ender-5-Plus-Upgrades#klipper--cfgs
-Somehttps://github.com/Identity-Unkn0wn/Ender-5-Plus-Upgrades#klipper--cfgs
