@@ -15,13 +15,14 @@ Current printer.cfg
 
 **Future mods:**
 
-4. Re-enable the filament sensor and original touch screen (adapters or small PCB)
+4. Install ADXL345 with connections compatible with sonic pad
+5. Re-enable the filament sensor and original touch screen (via an adapter or small PCB)
    VCC                        GND
    N/A                        N/A
    N/A                        RxD_LCD -> PD2
    N/A                        TxD_LCD -> PD3
    Filament Sense -> PC0      BL-Touch Control -> PA4
-6. Control of a smart power socket via moonraker
+6. Control of a smart power socket via moonraker -> that should enable to get rid of octoprint on my ender3v2
 7. New clips for the bed like https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 8. Get the original touch screen working with Klipper with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/
 Maybe also check what's here https://github.com/bustedlogic/DWIN_T5UIC1_LCD and https://github.com/GalvanicGlaze/DWIN_T5UIC1_LCD/wiki and https://www.reddit.com/r/ender3v2/comments/oa8qwx/klipper_using_ender_3_v2_display_check_first_post/
@@ -34,3 +35,7 @@ And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
 14. MG9 Linear rails for X with a lighter Gantry
 15. CoreXY like ZeroG or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q 
 16. Enclosure like https://www.thingiverse.com/thing:5111093
+
+**Some further usefull pages**
+https://github.com/Identity-Unkn0wn/Ender-5-Plus-Upgrades#klipper--cfgs
+Somehttps://github.com/Identity-Unkn0wn/Ender-5-Plus-Upgrades#klipper--cfgs
