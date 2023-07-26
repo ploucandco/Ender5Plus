@@ -12,6 +12,7 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
   Reused the BL-Touch from the original extruder setup
 4. Enabled original touchscreen with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/
   And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
+
   RxD_LCD -> PD2
   TxD_LCD -> PD3
 
