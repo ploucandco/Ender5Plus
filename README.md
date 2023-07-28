@@ -4,10 +4,10 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 
 **Current Ender 5 Plus mods:**
 1. Installed Klipper via an external RPI zero 2
-2. Replaced the original V2.2 board with a Creality 1.1.5 Silent Board
+2. Replaced the original V2.2 board with a Creality 1.1.5 Silent Board.
   Made adapters for the dual Z-axis and fans
   The BL-Touch control pin is connected to ISCP interface with Vcc, MOSI (command signal of the BL-Touch), GND. The signal pin and GND have been inverted and connected to the Z-end.
-3. Installed a Sprite Extruder Pro
+3. Installed a Sprite Extruder Pro.
   Used the adapter from https://www.printables.com/model/329742-ender-5-plate-sprite-pro
   Reused the BL-Touch from the original extruder setup
 4. Enabled original touchscreen with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/
