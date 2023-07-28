@@ -20,7 +20,7 @@ Current printer.cfg
 
 **Future mods:**
 
-5. Displace the BL-Touch as overheating and have a support for the ADXL345
+5. Move the BL-Touch to have no Y offset
 6. Install ADXL345 with connections to the RPI
 7. Make a small PCB for the original touchscreen, the filament sensor and the BL-Touch on the original Creality 1.1.5 Board
    VCC                        GND
