@@ -19,7 +19,7 @@ Current printer.cfg
 **Future mods:**
 
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
-6. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
+6. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) or https://github.com/teejo75/mtghs -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
 7. Install a ZeroPointModule (https://github.com/pkElectronics/ZeroPointModule) in order to have the RPI zero 2 inside the printer box with the 24V power supply from the printer. Maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg
 8. Command the always ON fan of the extruder and the always ON fan from the printer box via the PWMs of the ZeroPointModule
 9. Move the BL-Touch to have no Y offset
