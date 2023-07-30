@@ -18,18 +18,19 @@ Current printer.cfg
 
 **Future mods:**
 
-5. Install ADXL345 with connections to the RPI
+5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
 6. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
-7. Move the BL-Touch to have no Y offset
-8. Make a small PCB for the original touchscreen, the filament sensor and the BL-Touch on the original Creality 1.1.5 Board
+7. Install a ZeroPointModule (https://github.com/pkElectronics/ZeroPointModule) in order to have the RPI zero 2 inside the printer box with the 24V power supply from the printer. Maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg
+8. Command the always ON fan of the extruder and the always ON fan from the printer box via the PWMs of the ZeroPointModule
+9. Move the BL-Touch to have no Y offset
+10. Make a small PCB for the original touchscreen, the filament sensor and the BL-Touch on the original Creality 1.1.5 Board
    VCC                        GND
    N/A                        N/A
    N/A                        RxD_LCD -> PD2
    N/A                        TxD_LCD -> PD3
    Filament Sense -> PC0      BL-Touch Control -> PA4
 
-10. New clips for the bed like https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
-11. Install a Buck Converter from 24V->5V and install the RPI zero 2 inside the printer electronic cover, maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg
+11. New clips for the bed like https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 12. Install a camera connected to the RPI zero 2+LED lights
 13. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331
 14. 450mm MG12 Linear rails for Y: https://cults3d.com/en/3d-model/tool/ender-5-plus-linear-rail-mod-remix
