@@ -12,30 +12,29 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
   Reused the BL-Touch from the original extruder setup
 4. Enabled original touchscreen with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/
   And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
-
-  RxD_LCD -> PD2
-  TxD_LCD -> PD3
+  RxD_LCD -> PD2, TxD_LCD -> PD3
 
 Current printer.cfg
 
 **Future mods:**
 
-5. Move the BL-Touch to have no Y offset
-6. Install ADXL345 with connections to the RPI
-7. Make a small PCB for the original touchscreen, the filament sensor and the BL-Touch on the original Creality 1.1.5 Board
+5. Install ADXL345 with connections to the RPI
+6. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
+7. Move the BL-Touch to have no Y offset
+8. Make a small PCB for the original touchscreen, the filament sensor and the BL-Touch on the original Creality 1.1.5 Board
    VCC                        GND
    N/A                        N/A
    N/A                        RxD_LCD -> PD2
    N/A                        TxD_LCD -> PD3
    Filament Sense -> PC0      BL-Touch Control -> PA4
-8. Control of a smart power socket via moonraker -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
-9. New clips for the bed like https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
-10. Install a Buck Converter from 24V->5V and install the RPI zero 2 inside the printer electronic cover, maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg
-11. Install a camera connected to the RPI zero 2+LED lights
-12. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331
-13. 450mm MG12 Linear rails for Y: https://cults3d.com/en/3d-model/tool/ender-5-plus-linear-rail-mod-remix
-14. MG9 Linear rails for X with a lighter Gantry like this one: https://www.aliexpress.com/item/1005004910125155.html?spm=a2g0o.productlist.main.17.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-8&pdp_npi=3%40dis%21EUR%2169.47%2142.37%21%21%2175.58%21%21%400b0a558a16901350300074452d0733%2112000030986649526%21sea%21BE%214310898249&curPageLogUid=8zFS2bfiPk8L
-15. CoreXY like ZeroG or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q
+
+10. New clips for the bed like https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+11. Install a Buck Converter from 24V->5V and install the RPI zero 2 inside the printer electronic cover, maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg
+12. Install a camera connected to the RPI zero 2+LED lights
+13. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331
+14. 450mm MG12 Linear rails for Y: https://cults3d.com/en/3d-model/tool/ender-5-plus-linear-rail-mod-remix
+15. MG9 Linear rails for X with a lighter Gantry like this one: https://www.aliexpress.com/item/1005004910125155.html?spm=a2g0o.productlist.main.17.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-8&pdp_npi=3%40dis%21EUR%2169.47%2142.37%21%21%2175.58%21%21%400b0a558a16901350300074452d0733%2112000030986649526%21sea%21BE%214310898249&curPageLogUid=8zFS2bfiPk8L
+16. CoreXY like ZeroG or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q
   Some infos https://www.3docity.com.au/mercury-zerog-ender-5-mod-build-info-klipper-slicer-profiles/
   https://www.fabreeko.com/collections/mods/products/mercury-one-kit?variant=43506009538815
 17. Enclosure like https://www.thingiverse.com/thing:5111093
