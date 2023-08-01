@@ -10,8 +10,9 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 3. Installed a Sprite Extruder Pro.
   Used the adapter from https://www.printables.com/model/329742-ender-5-plate-sprite-pro
   Reused the BL-Touch from the original extruder setup
-4. Enabled original touchscreen with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/
-  And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
+4. Enabled original touchscreen with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/ and as reference
+https://github.com/Thinkersbluff/DGUS-Reloaded_for_CR6-DWIN-SET_Component/tree/Refactored_For_CR6_T5L_DWIN_Display
+And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
   RxD_LCD -> PD2, TxD_LCD -> PD3
 
 Current printer.cfg
