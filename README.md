@@ -17,6 +17,7 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 Current printer.cfg
 
 **Future mods:**
+4a. Finalise configuration for the original touschscreen with diplaying the Print Status https://github.com/Desuuuu/DGUS-reloaded-Klipper/wiki/Print-status
 
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
 6. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) or https://github.com/teejo75/mtghs -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
