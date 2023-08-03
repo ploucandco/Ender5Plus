@@ -22,7 +22,11 @@ Current printer.cfg
 4a. Finalise configuration for the original touschscreen with diplaying the Print Status https://github.com/Desuuuu/DGUS-reloaded-Klipper/wiki/Print-status
 
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
-6. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) or https://github.com/teejo75/mtghs -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
+  Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
+6. 400mm MG12H Linear rails for Y: https://www.thingiverse.com/thing:3960105 or remix: https://www.thingiverse.com/thing:5380428
+  with such end-stops: https://www.thingiverse.com/thing:3449917
+
+7. Control of a smart power socket via moonraker and tinytuya (https://github.com/jasonacox/tinytuya) or https://github.com/teejo75/mtghs -> that should enable to get rid of octoprint on my ender3v2 and further install Klipper on this one
 7. Install a ZeroPointModule (https://github.com/pkElectronics/ZeroPointModule) in order to have the RPI zero 2 inside the printer box with the 24V power supply from the printer. Maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg
 8. Command the always ON fan of the extruder and the always ON fan from the printer box via the PWMs of the ZeroPointModule
 9. Move the BL-Touch to have no Y offset
@@ -36,7 +40,6 @@ Current printer.cfg
 11. New clips for the bed like https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 12. Install a camera connected to the RPI zero 2+LED lights
 13. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331
-14. 450mm MG12 Linear rails for Y: https://cults3d.com/en/3d-model/tool/ender-5-plus-linear-rail-mod-remix
 15. MG9 Linear rails for X with a lighter Gantry like this one: https://www.aliexpress.com/item/1005004910125155.html?spm=a2g0o.productlist.main.17.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-8&pdp_npi=3%40dis%21EUR%2169.47%2142.37%21%21%2175.58%21%21%400b0a558a16901350300074452d0733%2112000030986649526%21sea%21BE%214310898249&curPageLogUid=8zFS2bfiPk8L
 16. CoreXY like ZeroG or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q
   Some infos https://www.3docity.com.au/mercury-zerog-ender-5-mod-build-info-klipper-slicer-profiles/
