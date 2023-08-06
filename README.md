@@ -23,7 +23,8 @@ Current printer.cfg
 
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
   Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
-  Got issues with enabling [mcu rpi] that I solved with section 2.6. od this tutorial and checked systemctl status klipper-mcu
+  Got issues: there was no https://github.com/Klipper3d/klipper/blob/master/scripts/klipper-mcu.service in the ~/klipper/scripts directory
+  and enabling [mcu rpi] was not working, what I solved with section 2.6. od this tutorial and checked systemctl status klipper-mcu
 
 7. 400mm MG12H Linear rails for Y: https://www.thingiverse.com/thing:3960105 or remix: https://www.thingiverse.com/thing:5380428
   with such end-stops: https://www.thingiverse.com/thing:3449917
