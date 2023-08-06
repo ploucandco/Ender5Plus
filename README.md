@@ -4,16 +4,20 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 
 **Current Ender 5 Plus mods:**
 1. Installed Klipper via an external RPI zero 2
+
 2. Replaced the original V2.2 board with a Creality 1.1.5 Silent Board.
   Made adapters for the dual Z-axis and fans
   The BL-Touch control pin is connected to ISCP interface with Vcc, MOSI (command signal of the BL-Touch), GND. The signal pin and GND have been inverted and connected to the Z-end.
+
 3. Installed a Sprite Extruder Pro.
   Used the adapter from https://www.printables.com/model/329742-ender-5-plate-sprite-pro
   Reused the BL-Touch from the original extruder setup
+
 4. Enabled original touchscreen with https://github.com/Desuuuu/DGUS-reloaded-Klipper as described here https://www.reddit.com/r/ender5plus/comments/kx9hsy/klipper_screen_on_ender_5_plus/ and as reference
-https://github.com/Thinkersbluff/DGUS-Reloaded_for_CR6-DWIN-SET_Component/tree/Refactored_For_CR6_T5L_DWIN_Display
-And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
+  https://github.com/Thinkersbluff/DGUS-Reloaded_for_CR6-DWIN-SET_Component/tree/Refactored_For_CR6_T5L_DWIN_Display
+  And this video for the connections https://www.youtube.com/watch?v=-pZmeRf-XNs
   RxD_LCD -> PD2, TxD_LCD -> PD3
+
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
   Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
   Got issues: there was no https://github.com/Klipper3d/klipper/blob/master/scripts/klipper-mcu.service in the ~/klipper/scripts directory
