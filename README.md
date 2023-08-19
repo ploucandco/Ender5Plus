@@ -21,7 +21,7 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
   Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
   Got issues: there was no https://github.com/Klipper3d/klipper/blob/master/scripts/klipper-mcu.service in the ~/klipper/scripts directory
-  and enabling [mcu rpi] was not working, what I solved with section 2.6. of this tutorial and checked systemctl status klipper-mcu
+  and enabling [mcu rpi] was not working, what I solved with section 2.6 and beyond of this tutorial (https://www.lpomykal.cz/klipper-raspberry-as-a-second-mcu-installation/) and checked systemctl status klipper-mcu
 
 
 Current printer.cfg
@@ -38,7 +38,9 @@ Current printer.cfg
 8. Install a ZeroPointModule (https://github.com/pkElectronics/ZeroPointModule) in order to have the RPI zero 2 inside the printer box with the 24V power supply from the printer. Maybe using this method for the serial connection: https://www.youtube.com/watch?v=QNxE_v5G_bg. Enable PWM for the hotend fan and electronics box fan with the RPI MCU (https://github.com/Klipper3d/klipper/blob/master/docs/RPi_microcontroller.md)
 
 9. Command the always ON fan of the extruder and the always ON fan from the printer box via the PWMs of the ZeroPointModule
+
 10. Move the BL-Touch to have no Y offset
+
 11. Make a small PCB for the original touchscreen, the filament sensor and the BL-Touch on the original Creality 1.1.5 Board
    VCC                        GND
    N/A                        N/A
