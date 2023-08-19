@@ -20,8 +20,8 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 
 5. Install ADXL345 with connections to the RPI, twisted cables: GND+MISO, 3.3V+MOSI, SCLK+CS and setup input shaping
   Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
-  Got issues: there was no https://github.com/Klipper3d/klipper/blob/master/scripts/klipper-mcu.service in the ~/klipper/scripts directory
-  and enabling [mcu rpi] was not working, what I solved with section 2.6 and beyond of this tutorial (https://www.lpomykal.cz/klipper-raspberry-as-a-second-mcu-installation/) and checked systemctl status klipper-mcu
+  Got some issues: there was no https://github.com/Klipper3d/klipper/blob/master/scripts/klipper-mcu.service in the ~/klipper/scripts directory
+  and enabling [mcu rpi] was not working with this tutorial (https://www.klipper3d.org/RPi_microcontroller.html).  I solved that with section 2.6 and beyond of this tutorial (https://www.lpomykal.cz/klipper-raspberry-as-a-second-mcu-installation/) and checked systemctl status klipper-mcu
 
 
 Current printer.cfg
