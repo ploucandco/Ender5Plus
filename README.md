@@ -32,7 +32,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
 
 8. Created my own repository of klipper https://github.com/ploucandco/klipper with DGUS-reloaded-Klipper. That gave me an up-to-date klipper/mainsail/moonraker and no issues for the ADXL345.
   Added klipper/klippy/extras/t5uid1/, added klipper/src/avr/t5uid1/ and modified Kconfig and Makefile in klipper/src/avr/, added klipper/src/tm32/t5uid1/ and modified Kconfig and Makefile in klipper/src/stm32/
-  So only both avr and STM32 are supported.
+  So, only both avr and STM32 are supported in my version.
   Installed by using kiauh (https://github.com/dw-0/kiauh) and added the line https://github.com/ploucandco/klipper in klipper_repos.txt
 
 9. Installed the RPI Zero 2W on a ZeroPointModule (https://github.com/pkElectronics/ZeroPointModule) and connected with the 24V power supply from the printer.
