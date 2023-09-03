@@ -26,7 +26,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
   and enabling [mcu rpi] was not working with this tutorial (https://www.klipper3d.org/RPi_microcontroller.html).  I solved that with section 2.6 and beyond of this tutorial (https://www.lpomykal.cz/klipper-raspberry-as-a-second-mcu-installation/) and checked systemctl 
   status klipper-mcu
 
-6. Installed an ESP32-CAM with URL Stream http://192.168.1.5:81/stream and Service MJPEG-Streamer. Adapted the default resolution in CameraWebServer.ino to VGA. Remixed an enclosure towards https://www.thingiverse.com/thing:6200417
+6. Installed an ESP32-CAM with URL Stream: http://192.168.1.5:81/stream and Service: MJPEG-Streamer. Adapted the default resolution in CameraWebServer.ino to VGA. Remixed an enclosure towards https://www.thingiverse.com/thing:6200417
 
 7. Installed new clips for the bed https://www.amazon.com.be/gp/product/B09HQX1JGH/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 
