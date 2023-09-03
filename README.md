@@ -46,7 +46,9 @@ Current printer.cfg
 **Future mods:**
 
 9a. Power the ESP32-CAM via the +5V output of the ZeroPointModule 
+
 9b. Further enable PWM for the hotend fan and electronics box fan with the RPI MCU (https://github.com/Klipper3d/klipper/blob/master/docs/RPi_microcontroller.md) by using the ZeroPoint Module.
+
 9c. Reenable the ADXL345. I will potentially need to replace the Creality V1.1.5 board by a Creality E3 free (https://github.com/CrealityOfficial/E3-Free-runs-Silent-Motherboard) that I got for very cheap. I already figured out that I need to select the STM32F401
 with a "64KiB bootloader" and serial (on USART1 PA10/PA9) communication. Also flash the firmware by copying "out/klipper.bin" to a SD card at [STM32F4_UPDATE] folder at root
  
@@ -62,19 +64,19 @@ with a "64KiB bootloader" and serial (on USART1 PA10/PA9) communication. Also fl
    N/A                        TxD_LCD -> PD3
    Filament Sense -> PC0      BL-Touch Control -> PA4
 
-12. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331 or https://www.thingiverse.com/thing:4196635
+13. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331 or https://www.thingiverse.com/thing:4196635
 
-15. MG9 Linear rails for X with a lighter Gantry like this one: https://www.aliexpress.com/item/1005004910125155.html?spm=a2g0o.productlist.main.17.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-8&pdp_npi=3%40dis%21EUR%2169.47%2142.37%21%21%2175.58%21%21%400b0a558a16901350300074452d0733%2112000030986649526%21sea%21BE%214310898249&curPageLogUid=8zFS2bfiPk8L
+14. MG9 Linear rails for X with a lighter Gantry like this one: https://www.aliexpress.com/item/1005004910125155.html?spm=a2g0o.productlist.main.17.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-8&pdp_npi=3%40dis%21EUR%2169.47%2142.37%21%21%2175.58%21%21%400b0a558a16901350300074452d0733%2112000030986649526%21sea%21BE%214310898249&curPageLogUid=8zFS2bfiPk8L
 
-16. CoreXY like ZeroG or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q
+15. CoreXY like ZeroG or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q
   Some infos https://www.3docity.com.au/mercury-zerog-ender-5-mod-build-info-klipper-slicer-profiles/
   https://www.fabreeko.com/collections/mods/products/mercury-one-kit?variant=43506009538815
 
-17. Enclosure like https://www.thingiverse.com/thing:5111093
+16. Enclosure like https://www.thingiverse.com/thing:5111093
 
-18. 220V bed like this one: https://www.aliexpress.com/item/1005005657153057.html?spm=a2g0o.productlist.main.41.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-20&pdp_npi=3%40dis%21EUR%2175.39%2175.39%21%21%2182.03%21%21%400b0a558a16901350300074452d0733%2112000033912707130%21sea%21BE%214310898249&curPageLogUid=R9eD0Ap9gOdx
+17. 220V bed like this one: https://www.aliexpress.com/item/1005005657153057.html?spm=a2g0o.productlist.main.41.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-20&pdp_npi=3%40dis%21EUR%2175.39%2175.39%21%21%2182.03%21%21%400b0a558a16901350300074452d0733%2112000033912707130%21sea%21BE%214310898249&curPageLogUid=R9eD0Ap9gOdx
 
-19. Install an ERCF https://www.aliexpress.com/item/1005004537312582.html?spm=a2g0o.productlist.main.67.4861630f9qWtfo&algo_pvid=00f3bf77-b45e-4930-aff9-60a1b7c5a0a2&algo_exp_id=00f3bf77-b45e-4930-aff9-60a1b7c5a0a2-33&pdp_npi=3%40dis%21EUR%21178.43%21132.04%21%21%21194.14%21%21%40211be10916901353988465274d0746%2112000029518182151%21sea%21BE%214310898249&curPageLogUid=1caYjVaTd2w6
+18. Install an ERCF https://www.aliexpress.com/item/1005004537312582.html?spm=a2g0o.productlist.main.67.4861630f9qWtfo&algo_pvid=00f3bf77-b45e-4930-aff9-60a1b7c5a0a2&algo_exp_id=00f3bf77-b45e-4930-aff9-60a1b7c5a0a2-33&pdp_npi=3%40dis%21EUR%21178.43%21132.04%21%21%21194.14%21%21%40211be10916901353988465274d0746%2112000029518182151%21sea%21BE%214310898249&curPageLogUid=1caYjVaTd2w6
 
 
 
