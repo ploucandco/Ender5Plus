@@ -61,7 +61,7 @@ Current printer.cfg
    N/A                        TxD_LCD -> PD3
    Filament Sense -> PC0      BL-Touch Control -> PA4
 
-12. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331
+12. Install corners reinforcements for the square chassis, like such ones https://www.thingiverse.com/thing:4890331 or https://www.thingiverse.com/thing:4196635
 
 15. MG9 Linear rails for X with a lighter Gantry like this one: https://www.aliexpress.com/item/1005004910125155.html?spm=a2g0o.productlist.main.17.25957cabHzZwE8&algo_pvid=9e22712c-21bd-42ea-b19b-f8ce81c6447f&algo_exp_id=9e22712c-21bd-42ea-b19b-f8ce81c6447f-8&pdp_npi=3%40dis%21EUR%2169.47%2142.37%21%21%2175.58%21%21%400b0a558a16901350300074452d0733%2112000030986649526%21sea%21BE%214310898249&curPageLogUid=8zFS2bfiPk8L
 
