@@ -5,7 +5,7 @@ I purchased a second hand 2021 Ender 5 Plus that was working "so-so" with the ex
 **Current Ender 5 Plus mods:**
 1. Installed Klipper via an external RPI zero 2W
 
-2. Replaced the original V2.2 board with a Creality 1.1.5 Silent Board.
+2. Replaced the original Creality V2.1 board with a Creality 1.1.5 Silent Board.
   Made adapters for the dual Z-axis and fans
   The BL-Touch control pin is connected to ISCP interface with Vcc, MOSI (command signal of the BL-Touch), GND. The signal pin and GND have been inverted and connected to the Z-end.
 
