@@ -1,6 +1,6 @@
 # Ender 5 Plus
 
-I purchased a very cheap second hand 2021 Ender 5 Plus that was working "so-so" with the extruder motor installed on top of the hotend
+I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the extruder motor installed on top of the hotend
 
 **Current Ender 5 Plus mods:**
 1. Installed Klipper via an external RPI zero 2W
