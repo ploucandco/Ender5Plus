@@ -47,7 +47,8 @@ Current printer.cfg
 
 9a. Power the ESP32-CAM via the +5V output of the ZeroPointModule 
 9b. Further enable PWM for the hotend fan and electronics box fan with the RPI MCU (https://github.com/Klipper3d/klipper/blob/master/docs/RPi_microcontroller.md) by using the ZeroPoint Module.
-9c. Reenable the ADXL345. I will potentially need to replace the Creality V1.1.5 board by a Creality E3 free (https://github.com/CrealityOfficial/E3-Free-runs-Silent-Motherboard) that I got for very cheap.
+9c. Reenable the ADXL345. I will potentially need to replace the Creality V1.1.5 board by a Creality E3 free (https://github.com/CrealityOfficial/E3-Free-runs-Silent-Motherboard) that I got for very cheap. I already figured out that I need to select the STM32F401
+with a "64KiB bootloader" and serial (on USART1 PA10/PA9) communication. Also flash the firmware by copying "out/klipper.bin" to a SD card at [STM32F4_UPDATE] folder at root
  
 10. 400mm MG12H Linear rails for Y: https://www.thingiverse.com/thing:3960105 or remix: https://www.thingiverse.com/thing:5380428
   with such end-stops: https://www.thingiverse.com/thing:3449917
