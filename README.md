@@ -5,7 +5,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
 **Current Ender 5 Plus mods:**
 1. Installed Klipper via an external RPI zero 2W
 
-2. Replaced the original Creality V2.1 board with a Creality 1.1.5 Silent Board.
+2. Replaced the original Creality V2.2 board with a Creality 1.1.5 Silent Board.
   Made adapters for the dual Z-axis and fans
   The BL-Touch control pin is connected to ISCP interface with Vcc, MOSI (command signal of the BL-Touch), GND. The signal pin and GND have been inverted and connected to the Z-end.
 
@@ -36,21 +36,20 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
   Installed by using kiauh (https://github.com/dw-0/kiauh) and added the line https://github.com/ploucandco/klipper in klipper_repos.txt
 
 9. Installed the RPI Zero 2W on a ZeroPointModule (https://github.com/pkElectronics/ZeroPointModule) and connected with the 24V power supply from the printer.
-  That broke the ADXL345 connection as SPI0 of the RPI is now used by the CANbus interface. On top of that, SPI1 of the RPI doesn't support the needed mode for the ADXL345!
-  I got the ADXL345 working on the creality V2.1 board by connecting to the SPI port and CS-> PB0, SCK-> PB1, MOSI -> PB2, MISO -> PB3 (used the commands: ACCELEROMETER_QUERY and MEASURE_AXES_NOISE to validate the worrking state).
+  The power of the ESP32-CAM is now also coming from the +5V output of the ZeroPointModule.
+  The ZeroPointModule broke the ADXL345 connection as SPI0 of the RPI is now used by the CANbus interface. On top of that, SPI1 of the RPI doesn't support the needed mode for the ADXL345!
+  I got the ADXL345 working on the creality V2.2 board by connecting to the SPI port and CS-> PB0, SCK-> PB1, MOSI -> PB2, MISO -> PB3 (used the commands: ACCELEROMETER_QUERY and MEASURE_AXES_NOISE to validate the worrking state).
   The connections with the creality V1.1.5 board will be challenging as the SPI port is on CS->PB4, MOSI->PB5, MISO->PB6 and SCK->PB7 and PB4 is used to command the fans!
-  Another opportunity is to use Software SPI, but the noise is clearly higher when using on the V2.1 board: cs_pin: rpi:gpio18, spi_software_sclk_pin = rpi:gpio21, spi_software_mosi_pin = rpi:gpio20, spi_software_miso_pin = rpi:gpio19
+  Another opportunity is to use Software SPI, but the noise is clearly higher when using on the V2.2 board: cs_pin: rpi:gpio18, spi_software_sclk_pin = rpi:gpio21, spi_software_mosi_pin = rpi:gpio20, spi_software_miso_pin = rpi:gpio19
    
 Current printer.cfg
 
 **Future mods:**
 
-9a. Power the ESP32-CAM via the +5V output of the ZeroPointModule 
+9a. Reenable the ADXL345. I will potentially need to replace the Creality V1.1.5 board by a Creality E3 free (https://github.com/CrealityOfficial/E3-Free-runs-Silent-Motherboard) that I got for very cheap. I already figured out that I need to select the STM32F401
+with a "64KiB bootloader" and serial (on USART1 PA10/PA9) communication. Also flash the firmware by copying "out/klipper.bin" to a SD card folder [STM32F4_UPDATE] at root
 
 9b. Further enable PWM for the hotend fan and electronics box fan with the RPI MCU (https://github.com/Klipper3d/klipper/blob/master/docs/RPi_microcontroller.md) by using the ZeroPoint Module.
-
-9c. Reenable the ADXL345. I will potentially need to replace the Creality V1.1.5 board by a Creality E3 free (https://github.com/CrealityOfficial/E3-Free-runs-Silent-Motherboard) that I got for very cheap. I already figured out that I need to select the STM32F401
-with a "64KiB bootloader" and serial (on USART1 PA10/PA9) communication. Also flash the firmware by copying "out/klipper.bin" to a SD card at [STM32F4_UPDATE] folder at root
  
 10. 400mm MG12H Linear rails for Y: https://www.thingiverse.com/thing:3960105 or remix: https://www.thingiverse.com/thing:5380428
   with such end-stops: https://www.thingiverse.com/thing:3449917
