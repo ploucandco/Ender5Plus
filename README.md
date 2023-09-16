@@ -49,8 +49,7 @@ Current printer.cfg
 
 **Future mods:**
 
-9a. Reenable the ADXL345. I will potentially need to replace the Creality V1.1.5 board by a Creality E3 free (https://github.com/CrealityOfficial/E3-Free-runs-Silent-Motherboard) that I got for very cheap. I already figured out that I need to select the STM32F401
-with a "64KiB bootloader" and serial (on USART1 PA10/PA9) communication. Also flash the firmware by copying "out/klipper.bin" to a SD card folder [STM32F4_UPDATE] at root. This board is a scam in terms of noise (expected coming from the stepper motors or power supply). I cannot get the BL_Touch and the ADXL345 measurements with decent noise level. I will need to reinstall the trusty Creality 1.1.5
+9a. Reenable the ADXL345. An opportunity is to install it on the ISCP port of the Creality 1.1.5.
 
 9b. Further enable PWM for the hotend fan and electronics box fan with the RPI MCU (https://github.com/Klipper3d/klipper/blob/master/docs/RPi_microcontroller.md) by using the ZeroPoint Module.
  
