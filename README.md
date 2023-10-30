@@ -3,13 +3,20 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
 **Current Ender 5 Plus mods:**
 
 1. Installed Klipper via an external RPI zero 2W
+   
 2. Installed a Sprite Extruder Pro. Used the adapter from https://www.printables.com/model/329742-ender-5-plate-sprite-pro Reused the BL-Touch from the original extruder setup
+  
 3. Replaced the original Creality V2.2 board with a BTT SKR Mini E3 V3.0
+   
 4. Installed a 4 inches LCD screen (https://github.com/ploucandco/Ender_5_Plus_KlipperScreen/blob/main/Install%20Klipper%2BKlipperScreen%20Ender%205%20Plus.pdf) for klipperscreen and connected the RPI zero 2W to the SKR Mini according to this manual: https://github.com/ploucandco/Ender_5_Plus_KlipperScreen/blob/main/Install%20Klipper%2BKlipperScreen%20Ender%205%20Plus.pdf
-6. Installed ADXL345 with connections ICSP port of the SKR Mini. Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
-7. Control of a Tuya smart power socket tinytuya (https://github.com/jasonacox/tinytuya) and gcode_shell_command from kiuah (https://github.com/dw-0/kiauh/tree/master).
-8. Installed 400mm linear rails on Y axis with this mod: https://www.thingiverse.com/thing:3960105
-9. Installed a RPI Camera Module 3 with the following case: https://www.thingiverse.com/thing:6277496
+
+5. Installed ADXL345 with connections ICSP port of the SKR Mini. Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
+  
+6. Control of a Tuya smart power socket tinytuya (https://github.com/jasonacox/tinytuya) and gcode_shell_command from kiuah (https://github.com/dw-0/kiauh/tree/master)
+   
+7. Installed 400mm linear rails on Y axis with this mod: https://www.thingiverse.com/thing:3960105
+
+8. Installed a RPI Camera Module 3 with the following case: https://www.thingiverse.com/thing:6277496
 
 **Future mods:**
 
