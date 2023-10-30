@@ -8,7 +8,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
   
 3. Replaced the original Creality V2.2 board with a BTT SKR Mini E3 V3.0
    
-4. Installed a 4 inches LCD screen (https://github.com/ploucandco/Ender_5_Plus_KlipperScreen/blob/main/Install%20Klipper%2BKlipperScreen%20Ender%205%20Plus.pdf) for klipperscreen and connected the RPI zero 2W to the SKR Mini according to this manual: https://github.com/ploucandco/Ender_5_Plus_KlipperScreen/blob/main/Install%20Klipper%2BKlipperScreen%20Ender%205%20Plus.pdf
+4. Installed a 4 inches LCD screen https://www.waveshare.com/wiki/4inch_RPi_LCD_(C) for klipperscreen and connected the RPI zero 2W to the SKR Mini according to this manual: https://github.com/ploucandco/Ender_5_Plus_KlipperScreen/blob/main/Install%20Klipper%2BKlipperScreen%20Ender%205%20Plus.pdf
 
 5. Installed ADXL345 with connections ICSP port of the SKR Mini. Used V2 mount from https://cults3d.com/en/3d-model/tool/creality-sprite-adxl345-mount
   
