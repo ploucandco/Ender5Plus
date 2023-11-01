@@ -35,7 +35,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
   
 15. EVA 3.0 toolhead with orbiter 2.0 on MGN12 or MGN9 linear rails: https://main.eva-3d.page/hex_nuts/core/cartesian/. Use the original ceality hotend with the mod from here: https://www.printables.com/model/249767-phaetus-dragonfly-bms-for-eva-v3-carriage or https://www.printables.com/model/535932-eva-30-ender-5-plus-microswiss-all-metal-remix
 
-16. CPAP cooling on EVA 3.0: https://jon-harper.github.io/E34M1/modules/rear/
+16. CPAP cooling on EVA 3.0: https://jon-harper.github.io/E34M1/modules/rear/, https://www.modernmakes.ca/blog/cpap-fan-eva3
 
 17. ZeroG CoreXY or the following one: https://drive.google.com/drive/folders/1-1tjyXcxYlQ97HP_JLZ4AQB9xGDrp68Q
   Some infos https://www.3docity.com.au/mercury-zerog-ender-5-mod-build-info-klipper-slicer-profiles/
