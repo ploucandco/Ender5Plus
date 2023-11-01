@@ -33,7 +33,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
     
 14. Try out USB bus toolhead with orbiter 2.0 in preparation of CANbus: https://biqu.equipment/products/bigtreetech-ebb-36-42-can-bus-for-connecting-klipper-expansion-device?variant=39760665149538 and https://biqu.equipment/collections/extruder-hotend-heatsink-j-heat/products/biqu-orbiter-v1-5-extruder-dual-driver-gear-extrusion-3d-printer-parts-for-cr10-10s-ender3-3-pro-ender5
   
-15. EVA 3.0 toolhead with orbiter 2.0 on MGN12 or MGN9 linear rails: https://main.eva-3d.page/hex_nuts/core/cartesian/. Use the original ceality hotend with the mod from here: https://www.printables.com/model/249767-phaetus-dragonfly-bms-for-eva-v3-carriage
+15. EVA 3.0 toolhead with orbiter 2.0 on MGN12 or MGN9 linear rails: https://main.eva-3d.page/hex_nuts/core/cartesian/. Use the original ceality hotend with the mod from here: https://www.printables.com/model/249767-phaetus-dragonfly-bms-for-eva-v3-carriage or https://www.printables.com/model/535932-eva-30-ender-5-plus-microswiss-all-metal-remix
 
 16. CPAP cooling on EVA 3.0: https://jon-harper.github.io/E34M1/modules/rear/
 
