@@ -20,7 +20,7 @@ I purchased a very cheap 2021 Ender 5 Plus that was working "so-so" with the ext
 
 9. Installed ASA printed corners reinforcements for the chassis (125mmx125mm version): https://www.thingiverse.com/thing:4196635
 
-10. Removed the source of wobbling on the z-axis by replacing the TR8x4 with teflon ones: https://www.amazon.com.be/dp/B07RKXS4ZV?psc=1&ref=ppx_yo2ov_dt_b_product_details
+10. Removed the source of wobbling on the z-axis by replacing the TR8x4 leadscrew nuts with teflon ones: https://www.amazon.com.be/dp/B07RKXS4ZV?psc=1&ref=ppx_yo2ov_dt_b_product_details
 
 **Future mods:**
 
